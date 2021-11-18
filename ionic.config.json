@@ -1,0 +1,7 @@
+{
+  "name": "Reckon1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
