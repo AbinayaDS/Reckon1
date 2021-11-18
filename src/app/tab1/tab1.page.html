@@ -1,17 +1,23 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       Tab 1
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
-<ion-content [fullscreen]="true">
+<ion-content > 
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  </ion-header> 
+    <ion-tabs>
+   <ion-tab-bar slot="top" >
+    <ion-tab-button page="add-statement" [routerLink]="['/add-statement']">Income </ion-tab-button>
+    <br>
+    <br>
+    <ion-tab-button page="add-statement" [routerLink]="['/add-statement']">Expense </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>  
 </ion-content>

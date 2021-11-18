@@ -1,1 +1,28 @@
-
+ion-tab-button {
+    text-indent: 50px;
+    -ms-text-size-adjust:65px;
+    
+      font-size: 16px;
+      color:#ffffff ;
+      
+    }
+    ion-menu-button{
+        color: #ffffff;
+    }
+    
+    ion-tab-bar{
+      background:fixed;
+      border: 1px;
+      color:#ffffff(0, 0, 0);
+    }
+    ion-toolbar {
+        --ion-background-color:#6e8591
+      }
+      
+    //   ion-tab-bar {
+    //     --ion-background-color: linear-gradient(to right, #... 0%, #... 100%) !important;
+    //     // color: aqua;
+    //     }
+        ion-tab-bar{
+            --ion-background-color: #6e8591
+        }
